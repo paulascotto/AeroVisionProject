@@ -17,4 +17,13 @@ describe('Drone store', () => {
     expect(droneStore.height).toBe(0);
     expect(droneStore.speed).toBe(0);
   });
+
+  it("updates the height correctly", () => {
+    const droneStore = usePositionDroneStore();
+    expect(droneStore.height).toBe(0);
+    droneStore.updateHeight(100);
+    expect(droneStore.height).toBe(100);
+  });
+
+
 });
