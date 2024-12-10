@@ -7,6 +7,7 @@ describe('Drone store', () => {
   })
   it("resetDrone", () => {
     const droneStore = usePositionDroneStore();
+    expect(droneStore.position).toEqual({ x: 792, y: 430 });
     droneStore.updateHeight(100);
     droneStore.updateSpeed(50);
     droneStore.updatePositionX(1000);
