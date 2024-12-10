@@ -5,7 +5,7 @@ describe('Drone store', () => {
   beforeEach(() => {
     setActivePinia(createPinia())
   })
-  it("resetDrone", async () => {
+  it("resetDrone", () => {
     const droneStore = usePositionDroneStore();
     droneStore.updateHeight(100);
     droneStore.updateSpeed(50);
