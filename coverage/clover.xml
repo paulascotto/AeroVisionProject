@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1733833479703" clover="3.2.0">
-  <project timestamp="1733833479703" name="All files">
+<coverage generated="1733833903296" clover="3.2.0">
+  <project timestamp="1733833903296" name="All files">
     <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6" elements="17" coveredelements="15" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
     <file name="usePositionDroneStore.ts" path="/Users/paulascottodiminico/Development/Drone/AeroVision/src/store/usePositionDroneStore.ts">
       <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
